@@ -1,0 +1,95 @@
+ls
+lnpwd
+pwd
+pwd
+cd
+ls
+ln -s  Dropbox/Briefcase/Reference/ ./Reference
+exit
+cd .emacs.d/
+ls
+cd elpa/
+ls
+rm -rf smart-mode-line-20190527.1156
+cd elpa/
+ls
+cd ..
+du -s
+df
+df -h
+exit
+node
+node -version
+node --version
+cd Projects/
+cd u2f/
+cd ..
+mkdir webauthn
+cd webauthn/
+findfile webauthnserver.js
+cd ..
+rm -rf webauthn/
+git clone https://github.com/fido-alliance/webauthn-demo/
+cd webauthn-demo/
+ls
+less README.md 
+npm install
+node app
+ls
+du -s
+ls node_modules/
+ls
+less utils.js 
+ls static/
+less static/index.html 
+cookie               express           methods cd             range-parser    
+cd ..
+rm -rf webauthn-demo/
+mkdir webauthn
+cd webauthn/
+cd ..
+ls webauthn/
+rmdir webauthn/
+git clone https://github.com/wallix/webauthn.git
+cd webauthn/
+ls
+ls package.json
+npm install @webauthn/client
+npm install @webauthn/server
+du -s
+df
+ls
+/dev/loop8               3840      3cd exam840          0 100% /snap/gnome-system-monitor/100
+cd example/
+ls
+ls front
+ls tls
+ls front/src/
+cat front/src/index.js 
+ls
+ls
+ls server
+cd ..
+ls
+cd example/
+ls
+ls api/
+cd
+cd Projects/webauthn/
+ls
+less Makefile 
+make help
+cat Makefile 
+make install
+make run-example-api
+apt search yarn
+sudo apt install yarnpkg
+make help
+make
+cat Makefile 
+make run-example-api
+apt show yarnpkg
+yarnpkg -h
+cat make
+cat Makefile 
+exit
