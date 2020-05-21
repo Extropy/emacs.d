@@ -1,4 +1,4 @@
-(toggle-frame-fullscreen)
+(setq winner-mode-map (make-sparse-keymap))
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 		       ("melpa" . "http://melpa.org/packages/")))
@@ -23,7 +23,7 @@
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(c-basic-offset 2)
- '(python-indent-offset 2)
+ '(python-indent-offset 4)
  '(js-indent-level 2)
  '(custom-enabled-themes (quote (manoj-dark)))
  '(display-time-24hr-format t)
@@ -40,7 +40,11 @@
  '(winner-mode t)
 )
 
-;; faces
+(setq-default left-margin-width 2 right-margin-width 1) ; Define new widths.
+(set-window-buffer nil (current-buffer)) ; Use them now.
+(fringe-mode 0)
+(setq-default line-spacing 0.1)
+(set-frame-font "DejaVu Sans Mono-9" nil t)
 
 ;; backup files
 (setq backup-directory-alist
@@ -91,16 +95,20 @@
 (global-set-key (kbd "M-s s") 'sr-speedbar-toggle)
 (global-set-key (kbd "<f6>") 'list-bookmarks)
 (global-set-key (kbd "<f5>") 'bookmark-set)
+(global-set-key (kbd "<f7>") 'sr-speedbar-toggle)
+(global-set-key (kbd "C-c b") 'compile)
+
 (define-key global-map (kbd "C-=") 'zoom-in)
 (define-key global-map (kbd "C--") 'zoom-out)
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
+(c-set-offset 'case-label '+)
+
 ;; + https://github.com/munen/emacs.d
 (global-auto-revert-mode t)
 (display-time-mode t)
 (add-hook 'LaTeX-mode-hook 'latex-preview-pane-mode)
-
 ;; - https://github.com/munen/emacs.d
 
 

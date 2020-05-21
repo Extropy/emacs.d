@@ -1,69 +1,3 @@
-ls
-lnpwd
-pwd
-pwd
-cd
-ls
-ln -s  Dropbox/Briefcase/Reference/ ./Reference
-exit
-cd .emacs.d/
-ls
-cd elpa/
-ls
-rm -rf smart-mode-line-20190527.1156
-cd elpa/
-ls
-cd ..
-du -s
-df
-df -h
-exit
-node
-node -version
-node --version
-cd Projects/
-cd u2f/
-cd ..
-mkdir webauthn
-cd webauthn/
-findfile webauthnserver.js
-cd ..
-rm -rf webauthn/
-git clone https://github.com/fido-alliance/webauthn-demo/
-cd webauthn-demo/
-ls
-less README.md 
-npm install
-node app
-ls
-du -s
-ls node_modules/
-ls
-less utils.js 
-ls static/
-less static/index.html 
-cookie               express           methods cd             range-parser    
-cd ..
-rm -rf webauthn-demo/
-mkdir webauthn
-cd webauthn/
-cd ..
-ls webauthn/
-rmdir webauthn/
-git clone https://github.com/wallix/webauthn.git
-cd webauthn/
-ls
-ls package.json
-npm install @webauthn/client
-npm install @webauthn/server
-du -s
-df
-ls
-/dev/loop8               3840      3cd exam840          0 100% /snap/gnome-system-monitor/100
-cd example/
-ls
-ls front
-ls tls
 ls front/src/
 cat front/src/index.js 
 ls
@@ -92,4 +26,103 @@ apt show yarnpkg
 yarnpkg -h
 cat make
 cat Makefile 
+exit
+ls /dev/ttyACM0 
+ls -l /dev/ttyACM0 
+less /etc/group
+sudo emacs /etc/group
+cd /etc
+ls group-
+ls -ltr
+ls -ltr group
+grep dial group
+drwxr-xr-x   2 root           root      12288 2019-10-12 22:59 alternatives
+ls -l /dev/ttyACM0 
+sudo less /etc/group-
+sudo vi /etc/group
+exit
+screen /dev/ttyACM0 
+screen /dev/ttyACM0 
+sudo screen /dev/ttyACM0 
+echo $TERM
+export TERM=xterm
+echo $TERM
+screen /dev/ttyACM0 
+sudo screen /dev/ttyACM0 
+echo $TERM
+sudo screen /dev/ttyACM0
+exit
+sudo screen /dev/ttyACM0
+exit
+grep -ilr atca_execute_command *.c
+grep -ilr atsend *
+screen /dev/ttyACM0
+sudo screen /dev/ttyACM0
+exit
+screen /dev/ttyACM0 115200
+screen /dev/ttyACM0 115200
+screen /dev/ttyACM0 115200
+screen /dev/ttyACM1 115200
+screen /dev/ttyACM0 115200
+screen /dev/ttyACM1 115200
+exit
+screen /dev/ttyACM0 115200
+ls -lt
+screen /dev/ttyACM0 115200
+screen /dev/ttyACM0 115200
+ls /dev/ttyACM0
+screen /dev/ttyACM0 115200
+drwxrwxr-x   3 agosling       agosling  4096 2019-09-28 16:17 Steam
+ls
+apt show yarnpkg
+drwxrwxr-x   3 agosling       agosling  4096 2019-09-28 16:17 Steam
+drwxrwxr-x   3 agosling       agosling  4096 2019-09-28 16:17 Steam
+drwxrwxr-x   3 agosling       agosling  4096 2019-09-28 16:17 Steam
+drwxrwxr-x   3 agosling       agosling  4096 2019-09-28 16:17 Steam
+clear
+screen /dev/ttyACM0 115200
+screen /dev/ttyACM0 115200
+sudo screen /dev/ttyACM0 115200
+exit
+echo $TERM
+ps aux | grep -i screen
+screen /dev/ttyACM0 115200
+ls -ltra
+drwxrwxr-x  12 agosling       agosling  4096 2019-10-09 21:58 Solaar
+-rw-------   1 agosling       agosling  1674 2019-11-01 13:15 .python_historypython_history
+python_history
+screen /dev/ttyACM0 115200
+ssh pi@10.1.1.17
+echo $TERM
+exit
+screen /dev/ttyACM0 115200
+cd ..
+ls -ltr
+cp ~/Downloads/myfile.dat ./yubico.der
+openssl x509 -inform der -noout -text
+ls -ltr
+openssl x509 -in yubico.der -inform der -noout -text
+xxd yubico.der 
+ls -ltr yubico.der
+rm yubico.der 
+cp ~/Downloads/myfile\ \(1\).dat ./yubico.der
+l s-ltr
+ls -tlr
+openssl x509 -in yubico.der -inform der -noout -text
+8c:a0:b4:37
+clear
+which openssl
+man openssl
+openssl standard-commands
+openssl list
+openssl list standard-commands
+man x509v3_config
+screen /dev/ttyACM0 115200
+ls /dev/ttyACM0  -l
+sudo screen /dev/ttyACM0 115200
+exit
+sudo screen /dev/ttyACM0 115200
+echo $TERM
+sudo screen /dev/ttyACM0 115200
+exit
 exit

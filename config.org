@@ -5,12 +5,14 @@
 * Austin Gosling .emacs.d/config.org
 
 based on Alain M. Lafon's at https://github.com/munen/emacs.d
+** First
+#+BEGIN_SRC emacs-lisp
+(setq winner-mode-map (make-sparse-keymap))
+#+END_SRC
 
 ** Packages
 
 #+BEGIN_SRC emacs-lisp
-  (toggle-frame-fullscreen)
-
   (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("melpa" . "http://melpa.org/packages/")))
   (package-initialize)
@@ -29,6 +31,7 @@ based on Alain M. Lafon's at https://github.com/munen/emacs.d
 
   (use-package markdown-mode :ensure t)
 
+
 #+END_SRC
 
 ** Variables
@@ -39,7 +42,7 @@ based on Alain M. Lafon's at https://github.com/munen/emacs.d
  '(ansi-color-names-vector
    ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#e090d7" "#8cc4ff" "#eeeeec"])
  '(c-basic-offset 2)
- '(python-indent-offset 2)
+ '(python-indent-offset 4)
  '(js-indent-level 2)
  '(custom-enabled-themes (quote (manoj-dark)))
  '(display-time-24hr-format t)
@@ -57,10 +60,13 @@ based on Alain M. Lafon's at https://github.com/munen/emacs.d
 )
 #+END_SRC
 
-** Faces
-
+** Frame appearance
 #+BEGIN_SRC emacs-lisp
-;; faces
+(setq-default left-margin-width 2 right-margin-width 1) ; Define new widths.
+(set-window-buffer nil (current-buffer)) ; Use them now.
+(fringe-mode 0)
+(setq-default line-spacing 0.1)
+(set-frame-font "DejaVu Sans Mono-9" nil t)
 #+END_SRC
 
 ** Backup files
@@ -136,10 +142,18 @@ based on Alain M. Lafon's at https://github.com/munen/emacs.d
 (global-set-key (kbd "M-s s") 'sr-speedbar-toggle)
 (global-set-key (kbd "<f6>") 'list-bookmarks)
 (global-set-key (kbd "<f5>") 'bookmark-set)
+(global-set-key (kbd "<f7>") 'sr-speedbar-toggle)
+(global-set-key (kbd "C-c b") 'compile)
+
 (define-key global-map (kbd "C-=") 'zoom-in)
 (define-key global-map (kbd "C--") 'zoom-out)
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
+#+END_SRC
+
+** Programming habits
+#+BEGIN_SRC emacs-lisp
+(c-set-offset 'case-label '+)
 #+END_SRC
 
 ** Everything else
@@ -150,7 +164,6 @@ based on Alain M. Lafon's at https://github.com/munen/emacs.d
 (global-auto-revert-mode t)
 (display-time-mode t)
 (add-hook 'LaTeX-mode-hook 'latex-preview-pane-mode)
-
 ;; - https://github.com/munen/emacs.d
 
 

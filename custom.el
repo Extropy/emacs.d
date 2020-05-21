@@ -10,14 +10,13 @@
  '(display-time-24hr-format t)
  '(display-time-day-and-date t)
  '(display-time-mode t)
- '(elfeed-feeds (quote ("http://xkcd.com/rss.xml")))
  '(inhibit-startup-screen t)
  '(js-indent-level 2)
  '(left-margin-width 1 t)
  '(package-check-signature nil)
  '(package-selected-packages
    (quote
-    (sr-speedbar company markdown-mode latex-extra latex-math-preview latex-preview-pane auctex math-symbol-lists multi-web-mode magit go-mode)))
+    (fontawesome sr-speedbar company markdown-mode latex-extra latex-math-preview latex-preview-pane auctex math-symbol-lists multi-web-mode magit go-mode)))
  '(python-indent-offset 2)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
