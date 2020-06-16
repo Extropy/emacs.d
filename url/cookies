@@ -1,0 +1,14 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".fidoalliance.org"
+  [url-cookie "__cfduid" "d87a2ff68d23b177b062ff1be5d3af08a1574343428" "Sat, 21-Dec-19 13:37:08 GMT" "/" ".fidoalliance.org" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

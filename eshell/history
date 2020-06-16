@@ -1,17 +1,3 @@
-ls front/src/
-cat front/src/index.js 
-ls
-ls
-ls server
-cd ..
-ls
-cd example/
-ls
-ls api/
-cd
-cd Projects/webauthn/
-ls
-less Makefile 
 make help
 cat Makefile 
 make install
@@ -125,4 +111,18 @@ sudo screen /dev/ttyACM0 115200
 echo $TERM
 sudo screen /dev/ttyACM0 115200
 exit
+exit
+screen /dev/ttyACM0
+cd
+pwd
+cd traininghcu-hid
+ls
+cd Provision/
+ls
+./detect.py 
+./detect.py 
+./detect.py 
+./detect.py 
+./detect.py 
+bash
 exit

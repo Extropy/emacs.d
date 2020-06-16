@@ -16,8 +16,8 @@
  '(package-check-signature nil)
  '(package-selected-packages
    (quote
-    (fontawesome sr-speedbar company markdown-mode latex-extra latex-math-preview latex-preview-pane auctex math-symbol-lists multi-web-mode magit go-mode)))
- '(python-indent-offset 2)
+    (sr-speedbar company markdown-mode latex-extra latex-math-preview latex-preview-pane auctex math-symbol-lists multi-web-mode magit go-mode)))
+ '(python-indent-offset 4)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(winner-mode t))
