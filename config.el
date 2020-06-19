@@ -44,7 +44,7 @@
 (set-window-buffer nil (current-buffer)) ; Use them now.
 (fringe-mode 0)
 (setq-default line-spacing 0.1)
-(set-frame-font "DejaVu Sans Mono-9" nil t)
+(set-frame-font "Noto Mono-8" nil t)
 
 ;; backup files
 (setq backup-directory-alist
@@ -102,6 +102,7 @@
 (define-key global-map (kbd "C--") 'zoom-out)
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
+(global-set-key (kbd "C-c m c") 'mc/edit-lines)
 
 (c-set-offset 'case-label '+)
 
