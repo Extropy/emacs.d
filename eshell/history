@@ -1,15 +1,3 @@
-make help
-cat Makefile 
-make install
-make run-example-api
-apt search yarn
-sudo apt install yarnpkg
-make help
-make
-cat Makefile 
-make run-example-api
-apt show yarnpkg
-yarnpkg -h
 cat make
 cat Makefile 
 exit
@@ -125,4 +113,16 @@ ls
 ./detect.py 
 ./detect.py 
 bash
+exit
+ls
+pwd
+cd traininghcu-hid.fail2/
+ls
+cd ..
+cd ~ 
+ls
+cd traininghcu-hid
+ls
+git status
+git log
 exit

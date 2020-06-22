@@ -97,7 +97,7 @@
 (global-set-key (kbd "<f5>") 'bookmark-set)
 (global-set-key (kbd "<f7>") 'sr-speedbar-toggle)
 (global-set-key (kbd "C-c b") 'compile)
-
+(global-set-key (kbd "C-x g") 'magit-status)
 (define-key global-map (kbd "C-=") 'zoom-in)
 (define-key global-map (kbd "C--") 'zoom-out)
 (when (fboundp 'windmove-default-keybindings)
