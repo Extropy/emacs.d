@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <20/04/18 10:55:50 /home/agosling/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <20/06/27 13:36:20 /home/agosling/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -21,4 +21,6 @@
   ("gid-integer" 0)
   ("gid-string" "root")
   ("uid-integer" 0)
-  ("git" "\\git")))
+  ("git" "\\git"))
+ ((tramp-file-name "su" "root" nil "labserver" nil nil nil)
+  nil))
