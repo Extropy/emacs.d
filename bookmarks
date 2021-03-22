@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("projects.org"
+(("i3 config"
+ (filename . "~/.config/i3/config")
+ (front-context-string . "\n\nfloating_minim")
+ (rear-context-string . "fullscreen smart")
+ (position . 1711))
+("projects.org"
  (filename . "~/Dropbox/org/projects.org")
  (front-context-string)
  (rear-context-string)
@@ -23,7 +28,7 @@
  (rear-context-string)
  (position . 14)
  (annotation . ""))
-("config.org"
+("emacs config"
  (filename . "~/.emacs.d/config.org")
  (front-context-string . "** Mode line for")
  (rear-context-string . "dbar\n#+END_SRC\n\n")

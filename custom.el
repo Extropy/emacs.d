@@ -16,10 +16,11 @@
  '(package-check-signature nil)
  '(package-selected-packages
    (quote
-    (sr-speedbar company markdown-mode latex-extra latex-math-preview latex-preview-pane auctex math-symbol-lists multi-web-mode magit go-mode)))
+    (multiple-cursors sr-speedbar company markdown-mode latex-extra latex-math-preview latex-preview-pane auctex math-symbol-lists multi-web-mode magit go-mode)))
  '(python-indent-offset 4)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
+ '(typescript-indent-level 2)
  '(winner-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

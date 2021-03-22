@@ -25,6 +25,7 @@
  '(c-basic-offset 2)
  '(python-indent-offset 4)
  '(js-indent-level 2)
+ '(typescript-indent-level 2)
  '(custom-enabled-themes (quote (manoj-dark)))
  '(display-time-24hr-format t)
  '(display-time-day-and-date t)

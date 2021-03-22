@@ -2,8 +2,10 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".fidoalliance.org"
-  [url-cookie "__cfduid" "d87a2ff68d23b177b062ff1be5d3af08a1574343428" "Sat, 21-Dec-19 13:37:08 GMT" "/" ".fidoalliance.org" nil]))
+ '((".google.com"
+  [url-cookie "NID" "204=q0wJ3Ep2HQvI97BDuL3UF_5ZUlZrAeBU4t3pb_mFBaXHsi0wGELQu3sRYbHDqpFn847tEG-NmhUCpNM8J-vTLAL7jvrH_K7Y0GL0kgcXZxj7JDkPepDWEjE2G3IhrQqgMNLZ5nB2gqZrCuHcq9OjEN5ns30nMUyaky7XTEZ43CQ" "Sat, 15-May-2021 10:41:41 GMT" "/" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Wed, 12-May-2021 10:41:59 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Wed, 12-May-2021 10:41:59 GMT" "/search" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
  'nil)

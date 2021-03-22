@@ -3,6 +3,8 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	c-electric-semi&comma
+	c-indent-line-or-region
 	org-self-insert-command
 	))
 
