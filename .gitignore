@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+# .gitignore for .emacs.d
+auto-save-list
+custom.el
+config.el
+tramp
+eshell/
+url/
+network-security.data
+.mc-lists.el
+image-dired/
+transient/
+%backup%~
