@@ -1,7 +1,0 @@
-* test org-babel-load file
-
-Some descriptive text goes here.
-
-#+BEGIN_SRC emacs-lisp
-
-#+END_SRC
