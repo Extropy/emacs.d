@@ -67,7 +67,7 @@ based on Alain M. Lafon's at https://github.com/munen/emacs.d
 (set-window-buffer nil (current-buffer)) ; Use them now.
 (fringe-mode 0)
 (setq-default line-spacing 0.1)
-(set-frame-font "Noto Mono-8" nil t)
+(set-frame-font "Noto Mono-11" nil t)
 #+END_SRC
 
 ** Backup files
